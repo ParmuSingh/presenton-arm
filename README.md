@@ -81,7 +81,7 @@ docker-compose -f docker-compose-arm.yml up --build`
 without GPU:
 ```bash
 docker-compose -f docker-compose-arm-cpu.yml up --build`
-`
+```
 
 #### 2. Open Presenton
 Open http://localhost:5000 on browser of your choice to use Presenton.
