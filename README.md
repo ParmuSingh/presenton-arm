@@ -12,10 +12,6 @@
   </a>
 </p>
 
-# NOTE: This is a fork of original repo for ARM support
-
-Run: `$ sudo docker-compose up --build` to build
-
 # Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)
 
 
@@ -76,6 +72,11 @@ docker run -it --name presenton -p 5000:80 -v "./app_data:/app_data" ghcr.io/pre
 ```bash
 docker run -it --name presenton -p 5000:80 -v "${PWD}\app_data:/app_data" ghcr.io/presenton/presenton:latest
 ```
+
+##### Build for Linux (arm64):
+```bash
+docker-compose -f docker-compose-arm.yml up --build`
+`
 
 #### 2. Open Presenton
 Open http://localhost:5000 on browser of your choice to use Presenton.
