@@ -78,6 +78,11 @@ docker run -it --name presenton -p 5000:80 -v "${PWD}\app_data:/app_data" ghcr.i
 docker-compose -f docker-compose-arm.yml up --build`
 `
 
+without GPU:
+```bash
+docker-compose -f docker-compose-arm-cpu.yml up --build`
+`
+
 #### 2. Open Presenton
 Open http://localhost:5000 on browser of your choice to use Presenton.
 
