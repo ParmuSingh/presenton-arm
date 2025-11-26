@@ -12,6 +12,10 @@
   </a>
 </p>
 
+# NOTE: This is a fork of original repo for ARM support
+
+Run: `$ sudo docker-compose up --build` to build
+
 # Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)
 
 
